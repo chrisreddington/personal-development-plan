@@ -1,0 +1,26 @@
+name: Short-term Goal
+description: Your short-term goals help you achieve your long-term goal
+title: "[Short-term]: "
+labels: ["Goal/short-term"]
+assignees:
+  - chrisreddington
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Your short-term goals help you achieve your long-term goal. This should be more tangible in nature. What will you do? When will you do it? How will you measure your success? Be specific.
+  - type: input
+    id: goal
+    attributes:
+      label: Goal
+      description: |
+        What is the goal? Describe this in a SMART way (i.e. Specific, Measurable, Achievable, Relevant and Time-bound).
+    validations:
+      required: true
+  - type: textarea
+    id: related-goals
+    attributes:
+      label: Related Goals
+      description: Does this goal break down into smaller sub goals? Or perhaps it's related in another way? Reference those issues in this section.
+    validations:
+      required: false

@@ -1,0 +1,32 @@
+name: Long-term Goal
+description: Your long-term goal is the destination of your career path.
+title: "[Long-term]: "
+labels: ["Goal/long-term"]
+assignees:
+  - chrisreddington
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Your long-term goal is the destination of your career path. This might be a little less tangible, an d more of a visionary item. There should be several issues linked to this one, which are SMART.
+  - type: input
+    id: objective
+    attributes:
+      label: Objective
+      description: What is the objective of this goal (i.e. the vision statement)?
+    validations:
+      required: true
+  - type: textarea
+    id: key-results
+    attributes:
+      label: Key Results
+      description: How do you know when the goal has been achieved? I.e. what are the measures that you are expecting to see?
+    validations:
+      required: false
+  - type: textarea
+    id: related-goals
+    attributes:
+      label: Related Goals
+      description: Does this goal break down into smaller sub goals? Or perhaps it's related in another way? Reference those issues in this section.
+    validations:
+      required: false
