@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Your long-term goal is the destination of your career path. This might be a little less tangible, an d more of a visionary item. There should be several issues linked to this one, which are SMART.
+        Your long-term goal is the destination of your career path. This might be a little less tangible, and more of a directional item. There should be several short-term goals linked to this one, which are SMART.
   - type: input
     id: objective
     attributes:

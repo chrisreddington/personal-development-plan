@@ -1,0 +1,25 @@
+name: Vision
+description: The vision is effectively your overall career aspiration.
+title: "[Vision]: "
+labels: ["Vision"]
+assignees:
+  - chrisreddington
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The vision is effectively your overall career aspiration. To acheieve this, you may need to build several long-term goals. It might be targeting a particular role, promotion, or expanding the scope of your interests (e.g. Public Speaking, Technical Leadership, etc.)
+  - type: input
+    id: vision
+    attributes:
+      label: Vision
+      description: What is the vision? What is that aspiration? The vision should be clear, the path to get there may not be.
+    validations:
+      required: true
+  - type: textarea
+    id: related-goals
+    attributes:
+      label: Related Goals
+      description: Does this goal break down into smaller sub goals? Or perhaps it's related in another way? Reference those issues in this section.
+    validations:
+      required: false
