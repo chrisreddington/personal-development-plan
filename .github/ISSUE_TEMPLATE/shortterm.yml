@@ -18,6 +18,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any additional insight/context around the goal, and why it forms a part of your plan.
+    validations:
+      required: false
+  - type: textarea
     id: related-goals
     attributes:
       label: Related Goals
